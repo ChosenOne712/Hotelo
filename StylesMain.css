@@ -1,0 +1,96 @@
+*{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+
+    background-color: rgb(145, 123, 0);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 100px;
+}
+.logo{
+
+
+    text-decoration: none;
+    color: #00095e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a{
+
+    color: #00095e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #3900ab;
+}
+
+section{
+
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(Pic.jpg);
+    background-color: #00095e;   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+
+    color: rgb(145, 123, 0);
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.main h2 span{
+    color: rgb(145, 123, 0);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color:rgb(145, 123, 0) ;
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.min-btn{
+
+    color:  rgb(145, 123, 0);
+    background-color: rgb(31, 71, 125);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1873em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.8s ease;
+}
+.min-btn:hover{
+    background-color:  rgb(4, 57, 126);
+    transform: scale(1.1,1.1);
+}

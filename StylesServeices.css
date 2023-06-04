@@ -1,0 +1,114 @@
+*{
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+
+    background-color: rgb(145, 123, 0);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 10px 100px;
+}
+.logo{
+
+
+    text-decoration: none;
+    color: #00095e;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+.navigation a{
+
+    color: #00095e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #3900ab;
+}
+.min-btn {
+
+    color:  rgb(145, 123, 0);
+    background-color:#00095e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1873em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.8s ease;
+    margin: 15px;    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(145, 123, 0);
+    font-size: 4em;
+    font-weight: 800;
+    margin-bottom: 2cm;
+    margin-left: 90px;
+    text-transform: uppercase;
+
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:rgb(145, 123, 0);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 7.5px;
+    margin-left: 3cm;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.7s;
+
+}
+.AboutTheWebsite{
+    color: black;
+    font-family: "font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+    text-align: center;
+}
+.AboutTheWebsite h3{
+    text-transform: uppercase;
+    color:#00095e;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 15px;
+}
+.min-btn .AboutTheWebsite{
+
+    color:  rgb(145, 123, 0);
+    background-color:#00095e;
+}
+.mainServecies{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

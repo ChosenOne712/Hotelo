@@ -1,0 +1,58 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "Must2002$";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Styles.css"> 
+
+<link rel="stylesheet" href="StylesRegister.css"> 
+<title>Register</title>
+</head>
+
+</head>
+<!---->
+    <header>
+
+        <a href="AboutTheWebsite.html" class="logo" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Hoteloo </a>
+        <nav class="navigation">
+            <a href="Serveices.html" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Serveices</a>
+            <a href="logIn.html" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">LogIn</a>
+            <a href="ContactUs.html" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Contact Us</a>
+        </nav>
+
+    </header>
+</body>
+
+
+    <section class="mainRegister">
+        <div>
+        <h2 align = "center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            Register
+        </h2>
+        <h3>
+            <input  type="text" class="centerF" placeholder="First Name / الاسم الاول">
+            <input type="text" class="centerF" placeholder="Last Name /اسم العائلة ">
+            <input type="password  not hidden" class="centerF" placeholder="National ID /الهوية الوطنية">
+            <input type="email" class="centerF" placeholder="E-Mail / البريد الالكتروني">
+            <input type="password" class="centerF" placeholder="Password / كلمة السر">
+            <input  type="submit">
+        </h3>
+
+    </div>
+    </section>
+
+
+
+</html>
